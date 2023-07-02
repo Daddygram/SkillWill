@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.taskTable {
+  border: 1px solid rgba(128, 128, 128);
+  max-width: 900px;
+  margin: 25px auto;
+  padding: 15px;
+}
+
+.toDoList {
+  border: 1px solid rgba(128, 128, 128);
+  max-width: 400px;
+  margin: 25px auto;
+  padding: 15px;
+}
+
+.completedTasks{
+  border: 1px solid rgba(128, 128, 128);
+  max-width: 900px;
+  margin: 25px auto;
+  padding: 15px;
+}
+
+.task-form {
+  display: flex;
+  border: 1px solid rgba(128, 128, 128);
+  margin-bottom: 15px;
+  padding: 10px;
+  flex-direction: column;
+}
+
+.task-form input{
+  height: 28px;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.button{
+  padding: 8px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.task-item button{
+  padding: 5px 15px;
+  margin-top: 10px;
+}
+
